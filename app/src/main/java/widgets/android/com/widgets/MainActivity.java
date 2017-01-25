@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(intent); // intent에 담겨진 정보를 startActivity에 담아 실행한다. -> GridActivity가 열림.
                 break;
             case R.id.btnCal:
-                intent = new Intent(this, widgetActivity.class);
+                intent = new Intent(this, calculator1Activity.class);
                 startActivity(intent);
         }
     }

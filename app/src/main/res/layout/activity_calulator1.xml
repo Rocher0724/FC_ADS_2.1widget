@@ -8,7 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="widgets.android.com.widgets.widgetActivity"
+    tools:context="widgets.android.com.widgets.calculator1Activity"
     android:orientation="vertical"
     android:weightSum="1">
 

@@ -17,7 +17,7 @@
         </activity>
         <activity android:name=".GridActivity" />
         <activity android:name=".Btn1Activity" />
-        <activity android:name=".widgetActivity"></activity>
+        <activity android:name=".calculator1Activity"></activity>
     </application>
 
 </manifest>

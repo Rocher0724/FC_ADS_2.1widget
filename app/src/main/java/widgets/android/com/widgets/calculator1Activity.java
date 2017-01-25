@@ -6,7 +6,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class widgetActivity extends AppCompatActivity implements View.OnClickListener {
+public class calculator1Activity extends AppCompatActivity implements View.OnClickListener {
 
     TextView result;
     TextView testSideView;
@@ -40,7 +40,7 @@ public class widgetActivity extends AppCompatActivity implements View.OnClickLis
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_widget);
+        setContentView(R.layout.activity_calulator1);
 
         // 2. 정의된 위젯변수에 xml의 위젯 id를 가져와서 담아준다.
         result = (TextView) findViewById(R.id.result);
